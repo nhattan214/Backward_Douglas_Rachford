@@ -29,16 +29,6 @@ else
 end
 
 
-
-
-%% Be consistent with paper algorithm 
-%% (Douglas-Rachford Algorithm for (GDCP))
-% beta = 1/delta; 
-
-
-% beta=0.707;
-
-
 % maximum number of iterations
 if isfield(pm,'maxit'); 
     maxit = pm.maxit; 
