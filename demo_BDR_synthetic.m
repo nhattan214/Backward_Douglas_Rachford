@@ -10,7 +10,7 @@ close all
 
 
 ALL_MEAN_TABLE=[];
-for s=1:1
+for s=1:10
 
 matrixtype = 1; 
 M = 360*s; N = 1280*s % matrix dimension M-by-N
@@ -23,7 +23,7 @@ all_iter=[];
 
 
 
-for times=1:1
+for times=1:30
 
 
 
